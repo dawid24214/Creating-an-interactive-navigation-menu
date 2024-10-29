@@ -10,5 +10,6 @@ function App() {
 
 }
 const rootElement = document.getElementById('root');
-const root = ReactDom.createRoot()
+const root = ReactDom.createRoot(rootElement);
+root.render(<App/>);
 export default App
