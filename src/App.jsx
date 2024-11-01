@@ -10,12 +10,26 @@ const HomeLayout = () => {
         </div>
     )
 }
+const Router = () => {
+    return(
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<HomeLayout/>}>
 
-
-
-function App() {
-
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    )
 }
+const App = () => {
+    return(
+        <>
+            <Router/>
+        </>
+    )
+}
+
+
 const rootElement = document.getElementById('root');
 const root = ReactDom.createRoot(rootElement);
 root.render(<App/>);
