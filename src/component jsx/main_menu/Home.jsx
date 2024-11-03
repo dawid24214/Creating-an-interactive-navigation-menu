@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import "../../component scss/main_menu/_home.scss"
 
 export const Home = () => {
     return(
