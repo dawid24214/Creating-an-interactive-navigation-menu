@@ -1,18 +1,31 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 export const Home = () => {
     return(
         <>
             <header className='header__container'>
                 <section className='header__registraion container'>
-                    <a href=''>Zaloguj się</a><br/>
-                    <a href=''>Rejestracja</a>
+                    <Link to='/Login' className=''>
+                        Zaloguj się
+                    </Link>
+                    <Link to='/Registration' className=''>
+                       Rejestracja
+                    </Link>
                 </section>
                 <section className='header__navigation'>
-                    <a href=''>Główne menu</a><br/>
-                    <a href=''>Postacie</a><br/>
-                    <a href=''>Ksiega potworów</a><br/>
-                    <a href=''>Umiejętności</a><br/>
+                    <Link to='/Main_menu' className='/'>
+                       Główne menu
+                    </Link>
+                    <Link to='Characters' className='/'>
+                        Postacie
+                    </Link>
+                    <Link to='/Monster_book' className='/'>
+                        Ksiega potworów
+                    </Link>
+                    <Link to='Skill' className='/'>
+                        Umiejętności
+                    </Link>
                 </section>
 
             </header>
