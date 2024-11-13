@@ -1,0 +1,30 @@
+.header__container{
+min-width: 1850px;
+  min-height: 80px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.98);
+  .container {
+    width: 100%;
+    height:2rem;
+    display: flex;
+    justify-content: center;
+    .login__container{
+      &__button{
+        border-radius: 35px;
+        border: none;
+      }
+      padding: 16px 65px;
+      color: black;
+      font-weight: bold;
+      display: inline-block;
+
+
+    }
+    .register__container{
+      padding: 16px 65px;
+      font-weight: bold;
+      color: black;
+      display: inline-block;
+
+    }
+  }
+}

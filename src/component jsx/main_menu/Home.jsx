@@ -1,17 +1,17 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import "../../component scss/main_menu/_home.scss"
+import "../../component scss/main.scss"
 
 export const Home = () => {
     return(
         <>
             <header className='header__container'>
-                <section className='header__registraion container'>
-                    <Link to='/Login' className=''>
-                        Zaloguj się
+                <section className='container'>
+                    <Link to='/Login' className='login__container' >
+                        <button>ZALOGUJ SIĘ </button>
                     </Link>
-                    <Link to='/Registration' className=''>
-                       Rejestracja
+                    <Link to='/Registration' className='register__container'>
+                        <button>REJESTRACJA</button>
                     </Link>
                 </section>
                 <section className='header__navigation'>
