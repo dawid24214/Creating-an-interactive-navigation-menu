@@ -1,30 +1,51 @@
+
+//Login/Register
+
 .header__container{
 min-width: 1850px;
   min-height: 80px;
+  background-color: rgba(0, 0, 0, 0.09);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.98);
+
   .container {
     width: 100%;
     height:2rem;
     display: flex;
-    justify-content: center;
-    .login__container{
-      &__button{
-        border-radius: 35px;
-        border: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 90px;
+
+
+    button{
+      border-radius: 35px;
+      border: none;
+      color: black;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+      font-family: "Ga Maamli",sans-serif;
+      font-size: 1rem;
+
+      &:hover{
+        background-color: silver;
       }
-      padding: 16px 65px;
-      color: black;
-      font-weight: bold;
-      display: inline-block;
-
-
     }
-    .register__container{
-      padding: 16px 65px;
-      font-weight: bold;
-      color: black;
-      display: inline-block;
+  }
+}
 
+//Menu
+.header__navigation{
+  display: flex;
+  justify-content:space-between;
+  padding: 20px 50px;
+  button{
+    color: black;
+    display: inline-block;
+    padding: 16px 35px;
+    border:none;
+    background-color: rgb(230, 230, 230);
+    font-family: "Ga Maamli",sans-serif;
+    font-size: 22px;
+    &:hover{
+      color: #737373;
     }
   }
 }

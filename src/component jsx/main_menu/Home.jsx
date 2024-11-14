@@ -16,16 +16,16 @@ export const Home = () => {
                 </section>
                 <section className='header__navigation'>
                     <Link to='/Main_menu' className='/'>
-                       Główne menu
+                      <button>Główne menu</button>
                     </Link>
                     <Link to='Characters' className='/'>
-                        Postacie
+                        <button>Postacie</button>
                     </Link>
                     <Link to='/Monster_book' className='/'>
-                        Ksiega potworów
+                        <button>Ksiega potworów</button>
                     </Link>
                     <Link to='Skill' className='/'>
-                        Umiejętności
+                        <button>Umiejętności</button>
                     </Link>
                 </section>
 
