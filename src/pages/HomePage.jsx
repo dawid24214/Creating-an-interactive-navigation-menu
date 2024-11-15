@@ -9,7 +9,8 @@ export const HomePage = () => {
             <p>
                 Zapraszamy do zapoznania się z naszą ofertą, wydarzeniami i galerią.
             </p>
-            <Link to='about' className='cta__button'>Dowiedz się więcej o nas</Link>
+            <Link to='/about' className='cta-button'>Dowiedz się więcej o nas</Link><br/>
+            <Link to='/footer' className='footer'>Social media</Link>
 
         </div>
     );
