@@ -2,7 +2,6 @@ import { useState } from 'react';
 import ReactDom from 'react-dom/client'
 import {BrowserRouter, Outlet, Route, Routes} from "react-router-dom";
 import {Header} from './component jsx/Header.jsx'
-import {Footer} from './component jsx/Footer.jsx'
 import {HomePage} from './pages/HomePage.jsx'
 import {AboutPage} from "./pages/AboutPage.jsx"
 import {ServicePage} from "./pages/ServicePage.jsx"
@@ -26,7 +25,6 @@ const Router = () => {
                 <Route path='/' element={<HomeLayout/>}>
                 <Route path="/HomePage" element={<HomePage />} />
                 <Route path="/about" element={<AboutPage />} />
-                <Route path="/footer" element={<Footer />} />
                 <Route path="/services" element={<ServicePage />} />
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/gallery" element={<GalleryPage />} />
