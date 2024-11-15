@@ -9,6 +9,7 @@ import {EventsPage} from "./pages/EventsPage.jsx"
 import {GalleryPage} from "./pages/GalleryPage.jsx"
 import {ContactPage} from "./pages/ContactPage.jsx"
 import {FaqPage} from "./pages/FaqPage.jsx"
+import {AdminPage} from "./pages/AdminPage.jsx";
 
 const HomeLayout = () => {
     return(
@@ -30,6 +31,7 @@ const Router = () => {
                 <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/faq" element={<FaqPage />} />
+                    <Route path='/admin' element={<AdminPage/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
